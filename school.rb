@@ -10,5 +10,9 @@ class School
     db[grade] << name
   end
 
+  def grade(which_grade)
+    db[which_grade]
+  end
+
 
 end
