@@ -15,7 +15,7 @@ class School
   end
 
   def sort
-    Hash[@db.map{|k,v| [k, v.sort]}.sort]
+    Hash[db.map{|k,v| [k, v.sort]}.sort]
   end
 
 end
