@@ -14,5 +14,8 @@ class School
     db[which_grade]
   end
 
+  def sort
+    Hash[@db.map{|k,v| [k, v.sort]}.sort]
+  end
 
 end
