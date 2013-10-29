@@ -1,8 +1,12 @@
 class School
 
+  attr_reader :db
 
-  def db
-    {}
+  def initialize
+    @db = {}
   end
+
+
+
 
 end
